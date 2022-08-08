@@ -1,0 +1,25 @@
+@import "../../variables.scss";
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.basicTile {
+  flex: 1;
+  padding: $size-l;
+  padding-left: 0;
+}
+
+.health {
+  width: 5px;
+}
+
+.details {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button {
+  margin-left: 15px;
+}

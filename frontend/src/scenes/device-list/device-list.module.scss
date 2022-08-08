@@ -1,0 +1,17 @@
+@import "../../variables.scss";
+
+.root {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: $color-blue;
+}
+
+.content {
+  margin: 100px 300px 50px 300px;
+}
+
+.button {
+  margin-bottom: 10px;
+}
