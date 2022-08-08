@@ -1,0 +1,29 @@
+@import "../../variables.scss";
+
+.root {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: -webkit-linear-gradient(45deg, $color-blue 10%, $color-teal 90%);
+  background: -moz-linear-gradient(45deg, $color-blue 10%, $color-teal 90%);
+  background: -ms-linear-gradient(45deg, $color-blue 10%, $color-teal 90%);
+  background: -o-linear-gradient(45deg, $color-blue 10%, $color-teal 90%);
+  background: linear-gradient(45deg, $color-blue 10%, $color-teal 90%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  right: 0;
+  width: 150px;
+  height: 100px;
+  align-items: center;
+}
+
+.button {
+  margin-top: $size-l;
+}

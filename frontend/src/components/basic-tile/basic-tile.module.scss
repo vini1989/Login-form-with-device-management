@@ -1,0 +1,22 @@
+@import "../../variables.scss";
+
+.basicTile {
+  display: flex;
+  margin-bottom: 3px;
+  padding: $size-m;
+  background: $color-white;
+}
+
+.slots {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.left {
+  width: 10px;
+}
+
+.right {
+  align-items: flex-end;
+}
